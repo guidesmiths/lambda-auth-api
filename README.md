@@ -1,2 +1,1 @@
-# lambda-identity-provider
-testing
+# lambda-auth-provider

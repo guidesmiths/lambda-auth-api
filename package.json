@@ -1,0 +1,27 @@
+{
+  "name": "lambda-auth-api",
+  "version": "1.0.0",
+  "description": "Set of functions for auth purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielherrerohernando/lambda-API.git"
+  },
+  "author": "Alejandro Sanchez, Daniel Herrero Hernando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielherrerohernando/lambda-API/issues"
+  },
+  "homepage": "https://github.com/danielherrerohernando/lambda-API#readme",
+  "devDependencies": {
+    "serverless": "^1.77.1",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^11.3.2"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}

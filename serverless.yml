@@ -18,7 +18,7 @@ provider:
 
 # The `functions` block defines what code to deploy
 functions:
-  supertest:
+  auth:
     handler: handler.auth
     events:
       - http:

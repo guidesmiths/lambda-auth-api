@@ -4,7 +4,8 @@
   "description": "Set of functions for auth purposes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "./node_modules/serverless/bin/serverless.js deploy"
   },
   "repository": {
     "type": "git",

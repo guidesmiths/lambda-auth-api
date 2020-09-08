@@ -17,7 +17,7 @@ const buildSuccessBody = (data = {}) => ({
 
 module.exports.auth = async event => {
   try {
-    const token = event.headers.authorization;
+    const token = event["queryStringParameters"]['token']
     if (!token) throw new Error('Missing token');
     const payloadFromGoogle = await isTokenValidForGoogle(token);
     // if (payloadFromGoogle.aud !== gsAppsKnownIds) throw new Error('Invalid token');
